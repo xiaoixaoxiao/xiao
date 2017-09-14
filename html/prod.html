@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/prod.css"/>
+	</head>
+	<body>
+				<div class="img">
+			
+		</div>
+		<!--顶部工具栏-->
+		<div class="nav">
+			<div class="box">
+				<ul>
+				<li>欢迎光临易果生鲜！</li>
+				<li class="cidy">
+					<div class="cidy-sz">配送至：</div>
+					<div class="cidy-tit">
+						 <a class="city-name" href="javascript:void(0)">成都市<s class="img"></s></a>
+					</div>
+					
+				</li>
+			</ul>
+			<ul class="header_ul">
+				<li><a href="">[登录]</a></li>
+				<li><a href="">[注册]</a></li>
+				<li class="my_yiguo li_tubiao">
+					<a href="">我的易果	<s class="img"></s><s class="img"></s></a>
+					<div class="xiala1">	
+					    <a rel="nofollow" href="">我的订单</a><br>
+                        <a rel="nofollow" href="">我的优惠券<b id="coupon">0</b></a><br>
+                        <a rel="nofollow" href="">我的收藏</a><br>
+                        <a rel="nofollow" href="">我的悠币</a><br>
+                        <a rel="nofollow" href="">我的退换货</a><br>
+                        <a rel="nofollow" href="">预存款查询</a><br>
+                        <a rel="nofollow" href="">立即充值</a><br>
+					</div>
+				</li>
+				<li class="li_tubiao my_yiguo"><a href="">手机易果 <s class="img"></s> <s class="img"></s></a>
+					<div class="xiala1 xiala2">
+						<div>
+							<img src="img/1327212190.jpg"/>
+							<p>扫一扫下载APP</p>
+						</div>
+						<div>
+							<img src="img/1940132718.jpg"/>
+							<p>易果生鲜微信</p>
+						</div>
+						
+						
+					</div>
+					
+					
+				</li>
+				<li class="li_tubiao"><a href="">储值卡	<s class="img"></s></a></li>
+				<li class="li_tubiao"><a href="">提货券入口	<s class="img"></s></a></li>
+			</ul>
+			</div>
+			
+		</div>
+		
+		<!--头部-->
+		<div class="header">
+			<div class="header-box">
+				<div class="header-box-log">
+					<h1><a href="#"><span>易果生鲜</span></a></h1>
+				</div>
+				<div class="header-box-search">
+					<form>
+				    	<input  class="b1" type="text" placeholder="输入商品号/编号/拼音"/>
+				        <input  class="b2" type="button" value="搜索"/>
+				    </form>
+				    <p><a href="">牛排</a><a href="">虾仁</a><a href="">鲟鱼</a></p>
+				</div>
+				<div class="header-shoppingCart">
+					<div class="img">
+						
+					</div>
+					<p>￥<span>2320.00</span></p>
+				</div>				
+			</div>
+		</div>
+
+	
+		<!--小导航-->
+		<div class="index2">
+			<ul class="box_ul">
+				<li><a href="">全部商品分类▼</a></li>
+				<li><a href="">新品专区</a></li>
+				<li><a href="">优质生活</a></li>
+				<li><a href="">银行专栏</a></li>
+				<li><a href="">菜谱专栏</a></li>
+			</ul>
+		</div>
+		<div class="banner_img">
+			<a href=""><img src="../img/9288692557226073.jpg"/></a>
+		</div>
+		<div class="fenlan_img">
+			<a href=""><img src="../img/9288692557062233.jpg"/></a>
+			<a href=""><img src="../img/9288683081965369.jpg"/></a>
+			<a href=""><img src="../img/9288692557160537.jpg"/></a>
+			<a href=""><img src="../img/9288683082161977.jpg"/></a>
+		</div>
+		<div class="fenlan_zi">
+			<p>
+				<a href="">►所有分类</a>
+				<a href="" class="_after">鸡</a>
+				<a href="" class="_after">鸭</a>
+				<a href="" class="_after">鹅/鸽/特色禽类</a>
+				<a href="" >蛋</a>
+			</p>
+		</div>
+		<div class="fenlan_zi2">
+			<a href="">默认排行</a>
+			<a href="">销量<i></i></a>
+			<a href="">价格<i></i></a>
+			<a href="">评论<i></i></a>
+		</div>
+		<div class="mb">
+			<div class="mbbox"></div>
+		</div>
+		
+	<script type="text/html" id="moban">
+		<%
+			for(var i=0;i<data.length;i++){
+				var prod=data[i];	
+		%>
+			<div class="kuang">
+				<a href=""><img src="<%= prod.s1 %> "/></a>
+				<span> <img src="<%= prod.xin %>"/></span>
+				<div class="kuangbox">
+					<p><a href=""> <%= prod.s2 %></a></p>
+					<span> <%=prod.s3%></span>
+				</div>
+			
+				
+			</div>
+		<%
+			}
+		%>
+	</script>
+	
+		<script src="../lib/jquery/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../lib/arttemplate/template-native.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+			$.getJSON("../json/prod.json",function(abc){
+				console.log("abc")
+				var html = template("moban",{data:abc});
+				$(".mbbox").html(html);
+			});
+		});
+	</script>
+	</body>
+</html>

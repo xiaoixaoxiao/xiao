@@ -1,0 +1,37 @@
+
+	*{margin: 0;padding: 0;}
+	body{background: #f7f8f8;}
+	.nav{height: 70px;background: #e0e0e0;}
+	.nav>.box{width: 1200px;height: 70px;margin: auto;}
+	.nav>.box a{padding-top: 15px;display: block;float: left;}
+	.nav>.box span{font-size: 30px;line-height: 70px;font: 28px/1 Microsoft YaHei; margin-left: 95px; margin-top: 21px; display: block;float: left;color: #008842;}
+	
+	/*中间*/
+	.sign{border-bottom: 1px solid #e0e0e0;padding-bottom: 30px;box-sizing: border-box;}
+	.sign> .box{width:100%;height: 483px;background: #ffffff;}
+	.sign> .box .center{width: 1200px;height: 483px;margin: auto;}
+	.sign> .box .center >a{display: block;float: left;margin-top: 50px;}
+	.sign> .box .center .right{float: left;width: 350px;height: 431px;border: 1px solid #e0e0e0;margin-top: 50px;margin-left: 80px;}
+	.sign> .box> .center >.right div:nth-child(1){margin-top: 30px;height: 38px;}
+	.sign> .box> .center .right div:nth-child(1) p{font:18px/1 "Microsoft YaHei";color: #262626;float: left;margin-left: 24px;}
+	.sign> .box> .center .right div:nth-child(1) span{float: right;color: #878787;margin-right: 18px;font-size: 14px;}
+	.sign> .box> .center >.right >div:nth-child(1) span a{color:#008842;text-decoration:underline;font-size: 12px;}
+	.sign> .box> .center >.right >p{width: 308px;height: 40px;border:1px solid #c1c1c1;margin-left: 24px;}
+	.sign> .box> .center >.right >p span{display: block;width: 40px;height: 40px;float: left;background:#f3f3f3 url(../img/bg_input.png) no-repeat;border-right:1px solid #c1c1c1;}
+	.sign> .box> .center >.right >p span{background-position: 2px -117px;}
+	.sign> .box> .center >.right >p input{width: 253px;height: 40px;border: none;padding-left: 14px;}
+	.sign> .box> .center >.right >p:nth-child(3){margin-top: 20px;}
+	.sign> .box> .center >.right >p:nth-child(4){margin-top: 20px;width: 152px;}
+	.sign> .box> .center >.right >p:nth-child(4) input{width: 96px;}
+	.sign> .box> .center >.right >p:nth-child(4) i{float: left; width: 42px;height: 29px;position: absolute;top: 318px;left: 962px;background: red;}
+	.sign> .box> .center >.right >p:nth-child(4) a{    float: right;position: absolute;right: 229px;top: 326px;font-size: 12px}
+	.sign> .box> .center >.right >div:nth-child(5){font-size: 12px;color:#878787;margin-left: 24px;margin-top: 20px;line-height: 20px;}
+	.sign> .box> .center >.right >div:nth-child(5) input{margin-right: 15px;}
+	.sign> .box> .center >.right >div:nth-child(5) span{float: right;margin-right: 19px;font-size: 14px;}
+	.sign> .box> .center >.right >div:nth-child(6) input{font:18px/50px "Microsoft YaHei";border:none;color:#FFFFFF;background: #09964e;   width: 310px;height: 50px; margin-left: 25px; margin-top: 20px}
+	.sign> .box> .center >.right >h6{font: 12px Arial, "SimSun";color: #878787;margin-left: 25px;margin-top: 20px;}
+	
+	.sign> .box> .center >.right >div:nth-child(8) a{float:left;background: url(../img/bg_login.png);display: block;width: 100px;height: 29px;margin-top: 20px;}
+	.sign> .box> .center >.right >div:nth-child(8) a:nth-child(1){background-position:-59px -196px;margin-left: 20px;}
+	.sign> .box> .center >.right >div:nth-child(8) a:nth-child(2){background-position:-159px -196px;margin-left: 12px;}
+	.sign> .box> .center >.right >div:nth-child(8) a:nth-child(3){width:86px;background-position:-248px -196px;margin-left:0px;}

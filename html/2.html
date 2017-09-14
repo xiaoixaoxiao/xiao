@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/1.css"/>
+	</head>
+	<body>
+	<div id="header">
+		
+	</div>	
+	<div class="">
+		页面2
+	</div>		
+	<script src="../lib/jquery/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			
+			$.ajax({
+//				console.log("阿发");
+				type:"get",
+				url:"1.html",
+				
+				
+				success:function(data){
+					var sc=data;
+					console.log(sc);
+					$("#header").html(sc);
+				}
+			});
+			
+			
+			
+		})
+		
+		
+	</script>
+	</body>
+</html>

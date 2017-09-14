@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,KAAK;EAAC,KAAK,EAFP,KAAK;EAEM,MAAM,EAAE,KAAK",
+"sources": ["xin.scss"],
+"names": [],
+"file": "xin.css"
+}
