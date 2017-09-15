@@ -132,7 +132,14 @@
    .con-right> .top{height: 278px;border:1px solid #d4d4d4;background: #FFFFFF;}
    .con-right> .top p{padding: 0 25px; line-height: 35px; color: #008842; font-size: 14px; font-weight: bold;}
    .con-right> .top ul li{float: left;width: 135px;padding: 10px 25px 25px 25px;text-align: center;margin-bottom: 10px;}
-   .con-right> .top> ul .img{width: 135px;height: 135px;border: 1px solid;}
+   .con-right> .top> ul .img{width: 135px;height: 135px;}
    .con-right> .top> ul .img img{width: 135px;height: 135px;}
-   .con-right> .top> ul .p{width:135px;height: 36px; line-height: 18px; margin-bottom: 7px;font-size: 12px;}
+   .con-right> .top> ul .p{width:135px;height: 36px; line-height:40px; margin-bottom: 7px;font-size: 12px;}
    .con-right> .top> ul .p a{color: #777;}
+   .con-right> .top> ul .q strong{margin-right: 15px;color:#e8380d;}
+   .con-right> .top> ul .q del{color: #aaa;}
+   .con-right> .bottom{width: 930px;border:1px solid #d4d4d4 ;margin-top: 20px;}
+   .detail-tab{position: relative;height: 40px;line-height: 40px; background: #fff;}
+   .active{border-bottom: 2px solid #fff; background: url(../img/product.png) no-repeat -33px -58px #fff;}
+   .detail-tab li{position: relative;display: block; float: left; width: 130px; margin-top: -1px; text-align: center; border-right: 1px solid #d4d4d4;}
+   .detail-tab li a{color: #000000;}
