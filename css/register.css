@@ -1,0 +1,162 @@
+.nav {
+  background: #e0e0e0;
+  height: 70px; }
+  .nav div {
+    width: 1200px;
+    height: 70px;
+    margin: auto; }
+    .nav div a {
+      padding-top: 15px;
+      display: block;
+      float: left; }
+    .nav div span {
+      font-size: 30px;
+      line-height: 70px;
+      font: 28px/1 Microsoft YaHei;
+      margin-left: 95px;
+      margin-top: 21px;
+      display: block;
+      float: left;
+      color: #008842; }
+
+.tiaozhuang {
+  width: 1200px;
+  height: 14px;
+  margin-top: 37px;
+  margin-bottom: 13px;
+  padding-right: 4px;
+  box-sizing: border-box; }
+  .tiaozhuang span {
+    display: block;
+    float: right;
+    font: 14px/1 "Microsoft YaHei";
+    color: #444; }
+  .tiaozhuang a {
+    color: #ef760a;
+    text-decoration: underline; }
+
+.key {
+  background: url(../img/bg_input.png) no-repeat; }
+
+.cheterbox {
+  width: 1200px;
+  height: 634px;
+  border: 1px solid #c4dfb1;
+  margin: auto;
+  background: #FFFFFF; }
+  .cheterbox div {
+    float: left;
+    margin-top: 40px; }
+    .cheterbox div p {
+      margin-bottom: 29px;
+      font: 14px Arial,"Microsoft YaHei"; }
+      .cheterbox div p span:nth-child(1) {
+        display: inline-block;
+        width: 220px;
+        text-align: right;
+        padding-right: 20px; }
+      .cheterbox div p input {
+        border: 1px solid #c1c1c1;
+        background-color: #fff;
+        height: 38px;
+        vertical-align: middle;
+        padding-left: 14px;
+        width: 290px;
+        font: 14px/38px "Microsoft YaHei"; }
+      .cheterbox div p a {
+        color: #666666; }
+      .cheterbox div p a:nth-child(3) {
+        display: inline-block;
+        margin-left: 20px;
+        width: 121px;
+        height: 38px;
+        text-align: center;
+        line-height: 38px;
+        background-color: #f7f7f7;
+        border: 1px solid #c1c1c1;
+        color: #008842;
+        margin-right: 20px; }
+    .cheterbox div span:nth-child(7) {
+      display: block;
+      text-align: left;
+      padding-left: 244px;
+      box-sizing: border-box;
+      font: 14px Arial, "Microsoft YaHei"; }
+      .cheterbox div span:nth-child(7) input {
+        margin-right: 9px;
+        height: 14px;
+        width: 14px;
+        vertical-align: -1px;
+        font: 14px Arial, "Microsoft YaHei"; }
+      .cheterbox div span:nth-child(7) a {
+        color: #008842; }
+    .cheterbox div a:nth-child(8) {
+      display: block;
+      width: 306px;
+      height: 50px;
+      background: #09964e;
+      font: 18px/50px "Microsoft YaHei";
+      line-height: 50px;
+      text-align: center;
+      color: #FFFFFF;
+      margin-top: 28px;
+      margin-left: 243px; }
+  .cheterbox div:nth-child(2) {
+    float: right;
+    position: absolute;
+    height: 340px;
+    right: 173px;
+    width: 330px;
+    text-align: center;
+    padding-top: 70px;
+    font: 14px/56px "Microsoft YaHei"; }
+
+.cheterbox div p .input-yzm {
+  width: 147px; }
+
+.cheterbox div p .key {
+  background-position: 274px -68px; }
+
+.cheterbox div p .key2 {
+  background-position: 274px -29px; }
+
+.cheterbox div p .key2wenzi {
+  display: none;
+  text-align: right;
+  color: #f60000;
+  margin-left: 18px;
+  padding-left: 24px;
+  height: 20px;
+  width: 137px;
+  background: url(../img/zq.png) no-repeat; }
+
+.cheterbox div p .key2wenzi2 {
+  display: none;
+  text-align: right;
+  color: #f60000;
+  margin-left: 18px;
+  padding-left: 24px;
+  height: 20px;
+  width: 137px;
+  background: url(../img/cw2.png) no-repeat; }
+
+.cheterbox div p .key2wenzi3 {
+  display: inline-block;
+  text-align: right;
+  color: #f60000;
+  margin-left: 18px;
+  padding-left: 24px;
+  height: 20px;
+  width: 137px;
+  background: url(../img/dd.png) no-repeat; }
+
+.cheterbox div .p4 #key2wenzi2 {
+  text-align: right;
+  color: #f60000;
+  margin-left: 18px;
+  padding-left: 24px;
+  height: 20px;
+  width: 137px;
+  background: url(../img/zq.png) no-repeat; }
+
+/*# sourceMappingURL=register.css.map */

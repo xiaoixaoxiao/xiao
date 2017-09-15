@@ -1,0 +1,32 @@
+	*{margin: 0;padding: 0;}
+	ul li{list-style:none;}
+	a {text-decoration:none;}
+	body{background: #f7f8f8;}
+
+/*结尾部分*/
+	.index{height: 105px;background: #e0e0e0;margin-top: 50px;}
+	.index >.box{content: ".";clear: both;width: 1200px;height: 105px;margin: auto; }
+	.index >.box ul{margin-top:29px;}
+	.index >.box ul li{margin-top:32px;float: left;width: 190px;height: 42px;margin-left: 55px;padding-left: 55px;background: url(../img/index.png) no-repeat left top;}
+	.index >.box ul li b{display: block; padding-left: 15px; color: #007f4d;font: normal 18px/25px "Microsoft YaHei";border-left: 1px solid #a6a6a6;}
+	.index >.box ul li span{font-size: 12px;    display: block;padding-left: 15px; border-left: 1px solid #a6a6a6;}
+	.index >.box ul li:nth-child(2){background-position: 0 -42px;}
+	.index >.box ul li:nth-child(3){background-position: 0 -84px;}
+	.index >.box ul li:nth-child(4){background-position: 0 -126px;}
+	.index >.index_bottom{width: 1200px;height: 150px;margin:50px auto;}
+	.index >.index_bottom dl {margin-left: 65px;float: left;margin-right: 60px;}
+	.index >.index_bottom dl dt{font-size: 14px;background: url(../img/footer_icon.png) no-repeat;text-indent:40px;height: 23px;line-height: 23px;margin-bottom:10px;}
+	.index >.index_bottom dl dd{text-decoration:underline;border-left: 1px dashed  #A8A8A8;height:24px;padding-left:23px;margin-left: 15px;font-size: 9px;line-height:20px;}
+	.index >.index_bottom dl dd a{color: #525252;}
+	.index >.index_bottom .dt2{background-position:64px -23px;margin-left: -66px;}
+	.index >.index_bottom .dt3{background-position:0 -46px;}
+	.index >.index_bottom .dt4{background-position:13px -69px;margin-left: -13px;}
+	.index >.index_bottom .dt5{background-position:0 -92px;}
+	.index >p{margin-top: 62px;text-align: center;color: #008842;font-size: 14px;margin-bottom: 24px;}
+	.index >span{font-size: 12px;display: block;color: #717171;text-align: center;margin-bottom: 5px;}
+	.index >div{text-align: center;margin: auto;height: 50px;width: 500px;}
+	.index >div a{position:relative;margin-right:10px;float: left;vertical-align:middle;display: inline-block}
+	.index >div> a:nth-child(1){margin-top: 13px;margin-left: 45px; background: url(../img/d.png) no-repeat;display:block;width: 122px;height: 32px;}
+	.index >div> a:nth-child(2){background: url(../img/d2.png) no-repeat;display:block;width: 38px;height: 49px;}
+	.index >div> a:nth-child(3){margin-top: 17px;line-height: 20px;margin-left: 8px;background: url(../img/d3.png) no-repeat;display: block;width: 30px;height: 30px;}
+	.index >div>  span{font-size:12px ;margin-top:20px;display: block;float: left;color: #939393;}

@@ -1,0 +1,53 @@
+    $w:1200px;
+    $b:#e0e0e0;
+    $l:left;
+    $r:right;
+    $color: #008842;
+    $f: 28px/1 Microsoft YaHei;
+    $c:#444;
+   $border:1px solid #c1c1c1;
+    
+    .nav{background:$b;height:70px;
+        div{width: $w;height:70px;margin: auto;
+            a{padding-top: 15px;display: block;float:$l;}
+            span{font-size: 30px;line-height: 70px;font:$f; margin-left: 95px; margin-top: 21px; display: block;float:$l;color:$color;}
+        }
+    
+    }
+    .tiaozhuang{width: $w;height:14px;margin-top:37px;margin-bottom: 13px;padding-right: 4px;box-sizing: border-box;
+        span{display: block;float: $r;font: 14px/1 "Microsoft YaHei";color: $c;}
+        a{color: #ef760a;text-decoration:underline;}
+    }
+   
+    @mixin _p{margin-bottom:29px;font: 14px Arial,"Microsoft YaHei";};
+    @mixin _span{display: inline-block;width: 220px;text-align:$r;padding-right: 20px;}
+    @mixin _input{border:$border;background-color: #fff; height: 38px; vertical-align: middle;padding-left: 14px; width: 290px;font: 14px/38px "Microsoft YaHei"}
+    .key{background: url(../img/bg_input.png)no-repeat;}
+    .cheterbox{width: $w;height: 634px;border:1px solid #c4dfb1;margin: auto;background: #FFFFFF;
+        div{float: $l;margin-top:40px;
+            p{@include _p;
+               span:nth-child(1){@include _span;} 
+               input{@include _input;}
+               img{}
+               a{color: #666666;}
+               a:nth-child(3){display:inline-block;margin-left:20px;width: 121px; height: 38px;text-align: center; line-height: 38px;background-color: #f7f7f7;border:$border;color:$color;margin-right: 20px;}
+            }
+
+            span:nth-child(7){display: block;text-align:$l;padding-left:244px;box-sizing:border-box;font: 14px Arial,"Microsoft YaHei" ;
+                input{margin-right: 9px;height: 14px;width: 14px;vertical-align: -1px;font: 14px Arial,"Microsoft YaHei" ;}
+                a{color: $color;}
+            }    
+            a:nth-child(8){display: block;width: 306px;height: 50px;background: #09964e;font: 18px/50px "Microsoft YaHei";line-height: 50px;text-align: center;color: #FFFFFF;margin-top: 28px;margin-left: 243px;}       
+        } 
+        div:nth-child(2){float:$r;position:absolute;height: 340px;right:173px; width: 330px; text-align: center; padding-top:70px; font: 14px/56px "Microsoft YaHei";}       
+    }
+    .cheterbox div p .input-yzm{width: 147px;}   
+    .cheterbox div p .key{background-position:274px -68px;}
+    .cheterbox div p .key2{background-position:274px -29px;}
+    .cheterbox div p .key2wenzi{display:none;text-align:right;color: #f60000;margin-left:18px;padding-left:24px;height:20px;width:137px;background:url(../img/zq.png)no-repeat ;}
+    .cheterbox div p .key2wenzi2{display:none;text-align:right;color: #f60000;margin-left:18px;padding-left:24px;height:20px;width:137px;background:url(../img/cw2.png)no-repeat ;}
+    .cheterbox div p .key2wenzi3{display:inline-block;text-align:right;color: #f60000;margin-left:18px;padding-left:24px;height:20px;width:137px;background:url(../img/dd.png)no-repeat ;}
+
+    .cheterbox div .p4 #key2wenzi2{text-align:right;color: #f60000;margin-left:18px;padding-left:24px;height:20px;width:137px;background:url(../img/zq.png)no-repeat ;}
+   
+ 

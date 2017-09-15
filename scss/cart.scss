@@ -1,0 +1,23 @@
+
+
+    $w:1200px;
+    $b:#e0e0e0;
+    $l:left;
+    $r:right;
+    $color: #008842;
+    $f: 28px/1 Microsoft YaHei;
+    $c:#444;
+   $border:1px solid #c1c1c1;
+.header {
+        div{
+            div:nth-child(2){width: 438px;height: 36px;float:$r;padding-top: 20px;margin-right: 40px;
+                ul .on .b1{background-position:0 -44px;}
+                ul .on span{color: $color;}
+                ul li{position: relative;float:$l;
+                    b{background: url(../img/order-step.png)no-repeat;width:36px;height:36px;display:block;float:$l;}
+                    span{font-size:12px;font-family:Arial,Verdana,"\5b8b\4f53";position: absolute;top: -20px;right: 0;display: inline-block;width: 160px;text-align: center;right: -62px;color: #333;}
+                    i{width: 165px;height: 6px;background: #fff;border: 1px solid #e5e5e5;border-width: 1px 0;display: block;float:$l;margin-top: 15px;margin-right: 0;overflow: hidden;}
+                }
+            }
+        }
+    }

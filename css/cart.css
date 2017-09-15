@@ -1,0 +1,9 @@
+.header div div:nth-child(2) { width: 438px; height: 36px; float: right; padding-top: 20px; margin-right: 40px; }
+.header div div:nth-child(2) ul .on .b1 { background-position: 0 -44px; }
+.header div div:nth-child(2) ul .on span { color: #008842; }
+.header div div:nth-child(2) ul li { position: relative; float: left; }
+.header div div:nth-child(2) ul li b { background: url(../img/order-step.png) no-repeat; width: 36px; height: 36px; display: block; float: left; }
+.header div div:nth-child(2) ul li span { font-size: 12px; font-family: Arial,Verdana,"\5b8b\4f53"; position: absolute; top: -20px; right: 0; display: inline-block; width: 160px; text-align: center; right: -62px; color: #333; }
+.header div div:nth-child(2) ul li i { width: 165px; height: 6px; background: #fff; border: 1px solid #e5e5e5; border-width: 1px 0; display: block; float: left; margin-top: 15px; margin-right: 0; overflow: hidden; }
+
+/*# sourceMappingURL=cart.css.map */

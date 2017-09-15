@@ -1,0 +1,48 @@
+
+.nav{height:30px ;}
+	.nav > .box{width: 1200px;height: 30px;margin: auto;}
+	.nav> .box >ul:nth-child(1) li:nth-child(1){font-size: 12px;float: left;line-height: 30px;}
+	.nav> .box >ul .cidy{width: 200px;height: 30px;float: left;font-size: 12px;margin-left: 15px;}
+	.nav> .box >ul .cidy-sz { float:left; height:16px; line-height:16px; margin:7px 0; cursor: pointer; }
+	.nav> .box >ul .cidy-sz i{ width: 12px; height: 16px; margin-right:5px; background: url(../images/header/header-img.png) no-repeat left top;}
+	.nav> .box >ul .cidy-tit{float:left;line-height: 30px;}
+	.nav> .box >ul .cidy-tit a{color: #008842;}
+	.nav> .box >ul .cidy-tit .img{background-position:0 20px ;display: block;width: 12px;height: 12px;position: absolute;top: 14px;left: 243px;transition:transform .2s ease-in 0s;}
+	.nav> .box >ul .cidy-tit .current s{transform:rotate(180deg)}
+	.nav> .box >ul:nth-child(2){float: right;line-height: 30px;margin-right: 6px;}
+	.header_ul li{float: left;font-size: 12px;position: relative;padding:0 10px;}
+	.header_ul li a{color: #444;}
+	.xiala1{position: absolute;border: 1px solid #b4c1a3; left: -1px;width: 130px;top: 30px;padding-left: 10px;box-sizing: border-box;background: white;z-index: 1;display: none;}
+	.xiala2{width: 150px;}
+	.header_ul .li_tubiao{padding: 0 25px;	}
+	.header_ul .my_yiguo{ border-bottom: none;border-top: none;border-left:1px solid #f7f8f8;border-right:1px solid #f7f8f8;padding:0 0;width: 100px;}
+	.my_yiguo>a{display: block;width: 100%;height:29px;text-align: center;position: relative;z-index: 50;}
+	.my_yiguo:hover{border-right: 1px solid white;	border: 1px solid #b4c1a3; border-bottom: none;border-top: none;}
+	.my_yiguo:hover>a{	height: 32px;background: #FFFFFF;}
+	.my_yiguo:hover .xiala1{display: block;background:#FFFFFF;}
+	.xiala2 div{float: left;width: 100%;}
+	.xiala2 div img{float: left;	}
+	.xiala2 p{text-align: center;font-size: 12px;margin-left: 25px;float: left;}
+	.li_tubiao:nth-child(6) .img{background: url(../img/header-img-2.png)no-repeat;position:absolute;top:7px;right:62px;width: 50px;height: 50px;display: block;}
+	.li_tubiao:nth-child(5) .img{background: url(../img/header-img-1.png)no-repeat;position:absolute;top:7px;right:36px;width: 50px;height: 50px;display: block;}
+	.li_tubiao:nth-child(4) a .img:nth-child(1){z-index:999;background: url(../img/header-img-5.png)no-repeat;position:absolute;top:12px;right:-27px;width: 50px;height: 50px;display: block;}
+	.li_tubiao:nth-child(4) a .img:nth-child(2){z-index:999;background: url(../img/header-img-3.png)no-repeat;position:absolute;top:6px;right:46px;width: 50px;height: 46px;display: block;}
+	.li_tubiao:nth-child(3) a .img:nth-child(1){z-index:999;background: url(../img/header-img-5.png)no-repeat;position:absolute;top:12px;right:-27px;width: 50px;height: 50px;display: block;}
+	.li_tubiao:nth-child(3) a .img:nth-child(2){z-index:999;background: url(../img/header-img-4.png)no-repeat;position:absolute;top:6px;right:48px;width: 50px;height: 46px;display: block;}
+	
+	/*头部*/
+	.header{height: 78px;background: #e0e0e0;}
+	.header-box-log{float: left;margin-right: 145px;}
+	.header-box{width: 1263px;height: 78px;margin: auto;padding-top: 16px;box-sizing: border-box;}
+	.header-box-log h1 a{background:url(../img/logo.png);display: block;width:145px;height:50px;margin-left: 33px;}
+	.header-box-log h1 span{display:none;}
+	.header-box-search{float:left;}
+	.header-box-search>form{width: 528px;height: 28px;border: 1px solid #008842;float: left;}
+	.header-box-search>form .b1{width: 447px;height: 28px;border: none;float:left ;background: #E0E0E0;font-size: 13px;text-indent: 1em;}
+	.header-box-search>form .b2{width: 81px;height: 28px;background: #008842;border: none;float: left;font-size: 15px;color:#f7f9f8;}
+	.header-box-search>p a{font-size: 13px;color: #008842;font-size:12px;padding-right:6px;}
+	.header-box-search>p a:nth-child(2){color: #696969;}
+	.header-shoppingCart {width: 172px;height: 42px;border: 1px solid #008842;float: right;background: #F7F9F8;margin-right: 32px;}
+	.header-shoppingCart .img{background-position:-107px 0px;width:39px;height:19px;float: left;margin-top: 13px;margin-left:15px;}
+	.header-shoppingCart>p{font-size: 23px;color: #008842;line-height: 42px;}
+	
